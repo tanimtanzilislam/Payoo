@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payoo | Login </title>
+    <title>Payoo | Home </title>
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 
     <!-- tailwind+ daisyUI -->
@@ -32,29 +32,28 @@
 </head>
 <body class="min-h-screen max-w-md bg-base-200 mx-auto">
 
-    <div class="logo w-[200px] mx-auto pt-32 ">
-        <img src="assets/Logo-full.png" alt="">
+ <header class="border-b-2 border-gray-300 py-3 flex justify-between items-center ">
+
+    <div class="left flex gap-1 ">
+        <div class="logo w-[60px]">
+            <img src="assets/logo.png" alt="">
+        </div>
     </div>
 
-    <div class="form pt-10">
-  
-        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow mx-auto rounded-2xl">
-      <div class="card-body">
-        <fieldset class="fieldset">
-          <label class="label text-neutral font-bold">Mobile Number</label>
-          <input id="input-number" maxlength="11" minlength="11" value="01978449064" type="text" class="input rounded-full bg-base-200"
-           placeholder="Enter  your 1 digit number" />
-          <br>
-          <label class="label text-neutral font-bold">4 Digit Pin</label>
-          <input id="input-pin" type="password"maxlength="4" class="input rounded-full bg-base-200" placeholder="Enter 4 Digit Pin" />
-         
-          <button id="login-btn" class="btn btn-primary mt-4 rounded full ">Login</button>
-        </fieldset>
-      </div>
+    <div class="balance-info">
+        <h2 class="text-2xl font-bold "> $<span>45000</span></h2>
+        <p class="text-neutral/50">Available Balance</p>
+    </div>
+    <div class="right">
+        <a href="/index.html" class="btn btn-soft "><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
     </div>
 
+    
+ </header>
 
-    </div>
+ <section class="w-11/12 mx-auto py-10">
+    <h2 class="text-3xl"> Welcome to pay <span class="text-primary">oo</span></h2>
+ </section>
     <script src="./script/login.js"></script>
 </body>
 </html>
