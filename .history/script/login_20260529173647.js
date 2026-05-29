@@ -16,7 +16,7 @@ document.getElementById('login-btn').addEventListener('click',function(){
         alert('login successful');
 
         // if i use .replace , the history will be removed from browser
-        // window.location.replace('/home.html');
+        // window.replace('/home.html');
 
         // if i use .assign, the history will not removed
         window.location.assign('/home.html');

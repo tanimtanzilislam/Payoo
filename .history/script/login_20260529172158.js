@@ -15,11 +15,8 @@ document.getElementById('login-btn').addEventListener('click',function(){
      if(contactNum=='01978449064' && pinNum=='1234'){
         alert('login successful');
 
-        // if i use .replace , the history will be removed from browser
-        // window.location.replace('/home.html');
-
-        // if i use .assign, the history will not removed
-        window.location.assign('/home.html');
+        // if i use .replace , the 
+        // window.replace('/home.html');
      } else{
         alert('login failed');
         return;
