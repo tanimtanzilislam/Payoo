@@ -8,8 +8,7 @@ const cashoutNumber=cashoutNumberInput.value;
 console.log(cashoutNumber);
 
 if(cashoutNumber.length!=11){
-    alert("Invalid agent Number");
-    return;
+    
 }
 
 

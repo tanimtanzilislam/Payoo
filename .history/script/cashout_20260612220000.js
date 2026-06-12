@@ -7,11 +7,6 @@ const cashoutNumberInput = document.getElementById('cashout-number');
 const cashoutNumber=cashoutNumberInput.value;
 console.log(cashoutNumber);
 
-if(cashoutNumber.length!=11){
-    alert("Invalid agent Number");
-    return;
-}
-
 
     // 2 get the amount validate and convrt to number 
 
@@ -48,13 +43,12 @@ if(cashoutNumber.length!=11){
 
     //5 get the pin and verify
 
-    const cashoutPinInput =document.getElementById("cashout-pin");
+    const cashoutPinInput =document.getElementById(cashout-pin");
     const pin = cashoutPinInput.value;
     if(pin=="1234"){
 
         alert("cashout successful");
         console.log('newBalance',newBalance);
-        balanceElement.innerText=newBalance;
 
     }else{
         alert("Invalid pin");
