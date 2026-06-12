@@ -18,7 +18,7 @@ document.getElementById("login-btn").addEventListener("click",function(){
     if(contactNumber=="01978449064" && pin=="1234"){
         alert("login successful");
 
-        window.location.replace("/home.html")
+        window.location.replace("home.html")
     }
 else{
     alert("login failed");

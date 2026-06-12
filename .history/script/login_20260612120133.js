@@ -15,15 +15,8 @@ document.getElementById("login-btn").addEventListener("click",function(){
     console.log(pin);
 
     //match pin and mobile number
-    if(contactNumber=="01978449064" && pin=="1234"){
-        alert("login successful");
+    if(contactNumber=="01978449064")
 
-        window.location.replace("/home.html")
-    }
-else{
-    alert("login failed");
-    return;
-}
 
     // true-->alert--> homepage
     // false-->alert-->
